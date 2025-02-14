@@ -1,24 +1,38 @@
 {
-  "name": "angular-packages",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+  "name": "angular-draggablex",
+  "description": "A angular directive provide html block to move on html plain.",
+  "keywords": [
+    "Angular-draggable",
+    "ng draggable directive",
+    "draggable directive",
+    "directive",
+    "Angular",
+    "angular-draggablex"
+  ],
+  "homepage": "https://github.com/karnavpargi/angular-draggablex",
+  "bugs": {
+    "url": "https://github.com/karnavpargi/angular-draggablex/issues"
   },
-  "private": true,
+  "author": {
+    "name": "Karnav Pargi",
+    "url": "https://www.karnavpargi.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/karnavpargi/angular-draggablex",
+    "type": "git"
+  },
+  "private": false,
+  "version": "12.0.0",
+  "scripts": {
+    "serve": "ng serve",
+    "build": "ng build angular-draggable",
+    "test": "ng test --watch false"
+  },
   "dependencies": {
-    "@angular/animations": "~12.2.0",
-    "@angular/common": "~12.2.0",
-    "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
-    "@angular/forms": "~12.2.0",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
-    "@angular/router": "~12.2.0",
-    "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -34,6 +48,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-packagr": "^12.1.1",
     "typescript": "~4.3.5"
   }
 }

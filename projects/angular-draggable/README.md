@@ -2,19 +2,18 @@
 [![npm](https://img.shields.io/npm/dt/angular-draggablex.svg)](https://www.npmjs.com/package/angular-draggablex)
 
 # Angular-DraggableX
- A angular directive provide html block to move on html plain.
 
+A angular directive provide html block to move on html plain.
 
-## [Forked from Angular-Draggable](https://www.npmjs.com/package/angular-draggable)
+### [Forked from Angular-Draggable](https://www.npmjs.com/package/angular-draggable)
 
-## Compatibility
+#### Compatibility
 
 | Angular-DraggableX | Angular  |
 | ------------------ | -------- |
 | 12.0.x             | >=12.x.x |
 
-
-## Usages
+#### Usages
 
 ```js
 import { NgDraggableModule } from 'angular-draggable';

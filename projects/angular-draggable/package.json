@@ -1,0 +1,34 @@
+{
+  "name": "angular-draggablex",
+  "description": "A angular directive provide html block to move on html plain.",
+  "keywords": [
+    "Angular-draggable",
+    "ng draggable directive",
+    "draggable directive",
+    "directive",
+    "Angular",
+    "angular-draggablex"
+  ],
+  "homepage": "https://github.com/karnavpargi/angular-draggablex",
+  "bugs": {
+    "url": "https://github.com/karnavpargi/angular-draggablex/issues"
+  },
+  "author": {
+    "name": "Karnav Pargi",
+    "url": "https://www.karnavpargi.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/karnavpargi/angular-draggablex",
+    "type": "git"
+  },
+  "private": false,
+  "version": "12.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
